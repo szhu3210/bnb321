@@ -1,0 +1,14 @@
+ECE 473/573 Project
+Requirements
+Ce Wang, Shengxiang Zhu
+3/31/2016
+
+(B requirements)
+1.1 This application is able to classify different mechanical keyboards by analyzing the sound come from the keyboard, assuming that it works in a quiet environment.
+1.2 This application would display the result of classification given a certain sound input.
+1.3 This application would be able to classify at least 2 kinds of typical mechanical keyboard switch.
+
+(A requirements)
+2.1 This application could work in a normal environment where there might be some noise.
+2.2 This application would be able to display the FFT graph of the input signal.
+2.3 This application would be able to classify at least 3 kinds of switches.

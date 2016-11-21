@@ -1,0 +1,10 @@
+[y,Fs,bits]=audioread('1.m4a');
+y=y(:,1);
+sigLength=length(y);
+Y = fft(y,sigLength);
+Pyy = Y.* conj(Y) / sigLength;
+halflength=floor(sigLength/2);
+f=Fs*(0:halflength)/sigLength;
+figure;plot(f,Pyy(1:halflength+1));xlabel('Frequency(Hz)');
+t=(0:sigLength-1)/Fs;
+figure;plot(t,y);xlabel('Time(s)');

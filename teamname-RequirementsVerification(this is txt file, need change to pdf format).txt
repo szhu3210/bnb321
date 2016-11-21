@@ -1,0 +1,69 @@
+-------------The followings are the requirements for requirement verification document (copied from Piazza)------------
+
+Requirements Verification
+Requirements Verification is due between the Alpha and Beta Releases.
+ 
+By this point in your project, you should have in place sequence models and tests to verify your requirements. In your SVN trunk's root, please place a document called "teamname-RequirementsVerification" (in PDF format) which will list all of your requirements, and for each requirement provide instructions to verify that the requirement is met.
+ 
+This document should include which tests to run, any wireless connection required, etc. If the tests are not yet written, or the requirements are not currently satisfied in your implementation, the verification plan should still be available.
+ 
+You need not include sequence diagrams or state models as part of your requirements verification plan, though you may if you find that more convenient.
+ 
+Example:
+
+Requirement 1.2: "Perform FFT of acquired audio file"
+
+Validation 1.2: Run Test 1.2
+
+Test 1.2: Executes unit tests of file.wav according to sequence
+model 1.2. Upon completion, compares output file of Test 1.2 
+with test12output.bin, which was obtained from a reference implementation
+in MATLAB. The comparison ensures each value is within +/- 0.00001 of the 
+values found in the reference implementation.
+ 
+You may use verification steps across requirements (i.e., another verification may ask the user to follow a separate verification first, or perform inspection after completing a different verification step).
+
+
+----------The followings are our plan for writing this document--------------
+
+Steps:
+0. Zhu and Wang will change the requirement document to make it more precise and testable. Corresponding parts in the design document will be subject to change as well.
+1. Zhu will write the contents of requirement 1.1-1.3.
+2. Wang will write the contents of requirement 2.1-2.3.
+3. After we write all the contents, Wang organizes all the contents and format it into a pdf file.
+
+
+----------The followings are the contents of requirement verification--------
+
+Zhu:
+
+Requirement 1.1: "This application is able to classify different mechanical keyboards by analyzing the sound come from the keyboard, assuming that it works in a quiet environment."
+
+Validation 1.1: Run Test 1.1
+
+Test 1.1: Executes unit test that plays a recording file of key stroke. Upon completion, compares the category of key switch and the result. Test will be passed if the result is correct.
+
+Requirement 1.2: "This application would display the result of classification given a certain sound input."
+
+Validation 1.2: Run Test 1.2
+
+Test 1.2: Executes unit tests of Test 1.1 and monitor the status of the output label, if the text content is the result of the classification, the test will be passed.
+
+Requirement 1.3: "This application would be able to classify at least 2 kinds of typical mechanical keyboard switch."
+
+Validation 1.3: Run Test 1.3
+
+Test 1.3: Executes more than 2 unit tests of Test 1.1 and if all the results are correct, this test is passed.
+
+Wang:
+
+..write your contents here.
+
+2.1 This application could work in a normal environment where there might be some noise.
+2.2 This application would be able to display the FFT graph of the input signal.
+2.3 This application would be able to classify at least 3 kinds of switches.
+
+
+----------Don't forget to organize all the contents and convert it into a pdf file-------------
+
+

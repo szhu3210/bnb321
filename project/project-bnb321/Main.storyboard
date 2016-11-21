@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="s39-Td-ghU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Se9-iE-ZQI">
+            <objects>
+                <viewController id="s39-Td-ghU" customClass="ViewController" customModule="project_bnb321" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g71-Xl-gua"/>
+                        <viewControllerLayoutGuide type="bottom" id="2mw-T8-j9U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BUC-5t-wWG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBD-3Z-Lgh">
+                                <rect key="frame" x="27" y="28" width="322" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="B1e-SF-3Pa"/>
+                                    <constraint firstAttribute="height" constant="190" id="OFw-jh-sdA"/>
+                                </constraints>
+                                <string key="text">ECE 473/573 Project
+
+teamname: bnb321
+
+members:
+Shengxiang Zhu
+Ce Wang
+
+Final Release</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAT-D4-iHc" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="298" width="343" height="369"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pf-7m-W3V">
+                                <rect key="frame" x="36" y="233" width="303" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="303" id="kjD-ba-eEG"/>
+                                    <constraint firstAttribute="height" constant="60" id="nAx-id-61x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KAT-D4-iHc" secondAttribute="trailing" constant="16" id="BqO-qj-Hss"/>
+                            <constraint firstItem="hBD-3Z-Lgh" firstAttribute="centerX" secondItem="BUC-5t-wWG" secondAttribute="centerX" id="F5v-H6-5q7"/>
+                            <constraint firstItem="2Pf-7m-W3V" firstAttribute="top" secondItem="hBD-3Z-Lgh" secondAttribute="bottom" constant="15" id="NLA-ok-T2Z"/>
+                            <constraint firstItem="2Pf-7m-W3V" firstAttribute="centerX" secondItem="BUC-5t-wWG" secondAttribute="centerX" id="Rna-Gm-RQM"/>
+                            <constraint firstItem="hBD-3Z-Lgh" firstAttribute="top" secondItem="g71-Xl-gua" secondAttribute="bottom" constant="8" symbolic="YES" id="aht-eL-fcC"/>
+                            <constraint firstItem="KAT-D4-iHc" firstAttribute="top" secondItem="2Pf-7m-W3V" secondAttribute="bottom" constant="5" id="cQ1-gj-ghg"/>
+                            <constraint firstItem="2mw-T8-j9U" firstAttribute="top" secondItem="KAT-D4-iHc" secondAttribute="bottom" id="eTt-Hr-NEb"/>
+                            <constraint firstItem="KAT-D4-iHc" firstAttribute="leading" secondItem="BUC-5t-wWG" secondAttribute="leading" constant="16" id="xMj-0M-AN7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="fftPlot" destination="KAT-D4-iHc" id="NCy-E3-JpM"/>
+                        <outlet property="resultLabel" destination="2Pf-7m-W3V" id="OHj-1f-vbF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jiQ-9z-Cdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="467.5" y="420.5"/>
+        </scene>
+    </scenes>
+</document>

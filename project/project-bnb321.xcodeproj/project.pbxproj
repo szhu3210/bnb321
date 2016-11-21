@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0546DCA41C86A8E300FB3B2C /* libEZAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0546DCA31C86A8E300FB3B2C /* libEZAudio.a */; };
+		0546DCB31C86B09700FB3B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0546DCB21C86B09700FB3B2C /* Main.storyboard */; };
+		0546DCB41C86B09700FB3B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0546DCB21C86B09700FB3B2C /* Main.storyboard */; };
+		0546DCB51C86B09700FB3B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0546DCB21C86B09700FB3B2C /* Main.storyboard */; };
+		058468691CC00FB8009AA984 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468611CC00FB8009AA984 /* 2.m4a */; };
+		0584686A1CC00FB8009AA984 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468611CC00FB8009AA984 /* 2.m4a */; };
+		0584686B1CC00FB8009AA984 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468611CC00FB8009AA984 /* 2.m4a */; };
+		0584686F1CC00FB8009AA984 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468631CC00FB8009AA984 /* 4.m4a */; };
+		058468701CC00FB8009AA984 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468631CC00FB8009AA984 /* 4.m4a */; };
+		058468711CC00FB8009AA984 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468631CC00FB8009AA984 /* 4.m4a */; };
+		058468721CC00FB8009AA984 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468641CC00FB8009AA984 /* 5.m4a */; };
+		058468731CC00FB8009AA984 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468641CC00FB8009AA984 /* 5.m4a */; };
+		058468741CC00FB8009AA984 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468641CC00FB8009AA984 /* 5.m4a */; };
+		058468751CC00FB8009AA984 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468651CC00FB8009AA984 /* 6.m4a */; };
+		058468761CC00FB8009AA984 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468651CC00FB8009AA984 /* 6.m4a */; };
+		058468771CC00FB8009AA984 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468651CC00FB8009AA984 /* 6.m4a */; };
+		058468781CC00FB8009AA984 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468661CC00FB8009AA984 /* 7.m4a */; };
+		058468791CC00FB8009AA984 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468661CC00FB8009AA984 /* 7.m4a */; };
+		0584687A1CC00FB8009AA984 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468661CC00FB8009AA984 /* 7.m4a */; };
+		0584687B1CC00FB8009AA984 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468671CC00FB8009AA984 /* 8.m4a */; };
+		0584687C1CC00FB8009AA984 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468671CC00FB8009AA984 /* 8.m4a */; };
+		0584687D1CC00FB8009AA984 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468671CC00FB8009AA984 /* 8.m4a */; };
+		0584687E1CC00FB8009AA984 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468681CC00FB8009AA984 /* 1.m4a */; };
+		0584687F1CC00FB8009AA984 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468681CC00FB8009AA984 /* 1.m4a */; };
+		058468801CC00FB8009AA984 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 058468681CC00FB8009AA984 /* 1.m4a */; };
+		05D8B1F91C860B29006F2BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B1F81C860B29006F2BF3 /* AppDelegate.swift */; };
+		05D8B1FB1C860B2A006F2BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B1FA1C860B2A006F2BF3 /* ViewController.swift */; };
+		05D8B2011C860B2A006F2BF3 /* project_bnb321.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B1FF1C860B2A006F2BF3 /* project_bnb321.xcdatamodeld */; };
+		05D8B2031C860B2A006F2BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D8B2021C860B2A006F2BF3 /* Assets.xcassets */; };
+		05D8B2061C860B2A006F2BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8B2041C860B2A006F2BF3 /* LaunchScreen.storyboard */; };
+		05D8B2111C860B2A006F2BF3 /* project_bnb321Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B2101C860B2A006F2BF3 /* project_bnb321Tests.swift */; };
+		05D8B21C1C860B2A006F2BF3 /* project_bnb321UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B21B1C860B2A006F2BF3 /* project_bnb321UITests.swift */; };
+		05FC63C11CBA2C43005A4DDA /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC63C01CBA2C43005A4DDA /* Charts.framework */; };
+		05FC63C31CBA2D28005A4DDA /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC63C21CBA2D28005A4DDA /* Charts.framework */; };
+		05FC63C41CBA2D28005A4DDA /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC63C21CBA2D28005A4DDA /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DEEAFDDEB1C347EA0639E75 /* libPods-project-bnb321.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 891336DA9FF0F9D2841BB09A /* libPods-project-bnb321.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0542AE3C1CBAB3BF00682098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		0542AE3E1CBAB3BF00682098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		0542AE401CBAB3BF00682098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		05D8B20D1C860B2A006F2BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D8B1ED1C860B29006F2BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D8B1F41C860B29006F2BF3;
+			remoteInfo = "project-bnb321";
+		};
+		05D8B2181C860B2A006F2BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D8B1ED1C860B29006F2BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D8B1F41C860B29006F2BF3;
+			remoteInfo = "project-bnb321";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05FC63C51CBA2D29005A4DDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05FC63C41CBA2D28005A4DDA /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0546DCA31C86A8E300FB3B2C /* libEZAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEZAudio.a; path = "Pods/../build/Debug-iphoneos/libEZAudio.a"; sourceTree = "<group>"; };
+		0546DCA81C86ABFF00FB3B2C /* EZAudio-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EZAudio-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0546DCB21C86B09700FB3B2C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		058468611CC00FB8009AA984 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		058468631CC00FB8009AA984 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		058468641CC00FB8009AA984 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		058468651CC00FB8009AA984 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		058468661CC00FB8009AA984 /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.m4a; sourceTree = "<group>"; };
+		058468671CC00FB8009AA984 /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.m4a; sourceTree = "<group>"; };
+		058468681CC00FB8009AA984 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		05D8B1F51C860B29006F2BF3 /* project-bnb321.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-bnb321.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D8B1F81C860B29006F2BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05D8B1FA1C860B2A006F2BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05D8B2001C860B2A006F2BF3 /* project_bnb321.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project_bnb321.xcdatamodel; sourceTree = "<group>"; };
+		05D8B2021C860B2A006F2BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05D8B2051C860B2A006F2BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05D8B2071C860B2A006F2BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D8B20C1C860B2A006F2BF3 /* project-bnb321Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-bnb321Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D8B2101C860B2A006F2BF3 /* project_bnb321Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_bnb321Tests.swift; sourceTree = "<group>"; };
+		05D8B2121C860B2A006F2BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D8B2171C860B2A006F2BF3 /* project-bnb321UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-bnb321UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D8B21B1C860B2A006F2BF3 /* project_bnb321UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_bnb321UITests.swift; sourceTree = "<group>"; };
+		05D8B21D1C860B2A006F2BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		05FC63C01CBA2C43005A4DDA /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "Charts/build/Debug-iphoneos/Charts.framework"; sourceTree = "<group>"; };
+		05FC63C21CBA2D28005A4DDA /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Charts.framework; path = "/Users/troy/Library/Developer/Xcode/DerivedData/project-bnb321-bllkkrzyxdrpdvdnfwbauohpsrfp/Build/Products/Debug-iphoneos/Charts.framework"; sourceTree = "<absolute>"; };
+		1BB36FD3A8368DB4573D5DC1 /* Pods-project-bnb321.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project-bnb321.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project-bnb321/Pods-project-bnb321.debug.xcconfig"; sourceTree = "<group>"; };
+		891336DA9FF0F9D2841BB09A /* libPods-project-bnb321.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-project-bnb321.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18E1FD16AA96DA1399C9AED /* Pods-project-bnb321.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project-bnb321.release.xcconfig"; path = "Pods/Target Support Files/Pods-project-bnb321/Pods-project-bnb321.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D8B1F21C860B29006F2BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FC63C11CBA2C43005A4DDA /* Charts.framework in Frameworks */,
+				05FC63C31CBA2D28005A4DDA /* Charts.framework in Frameworks */,
+				0546DCA41C86A8E300FB3B2C /* libEZAudio.a in Frameworks */,
+				3DEEAFDDEB1C347EA0639E75 /* libPods-project-bnb321.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B2091C860B2A006F2BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B2141C860B2A006F2BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0542AE371CBAB3BF00682098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0542AE3D1CBAB3BF00682098 /* Charts.framework */,
+				0542AE3F1CBAB3BF00682098 /* Charts.framework */,
+				0542AE411CBAB3BF00682098 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058468601CC00FB8009AA984 /* click sample */ = {
+			isa = PBXGroup;
+			children = (
+				058468611CC00FB8009AA984 /* 2.m4a */,
+				058468631CC00FB8009AA984 /* 4.m4a */,
+				058468641CC00FB8009AA984 /* 5.m4a */,
+				058468651CC00FB8009AA984 /* 6.m4a */,
+				058468661CC00FB8009AA984 /* 7.m4a */,
+				058468671CC00FB8009AA984 /* 8.m4a */,
+				058468681CC00FB8009AA984 /* 1.m4a */,
+			);
+			path = "click sample";
+			sourceTree = "<group>";
+		};
+		05D8B1EC1C860B29006F2BF3 = {
+			isa = PBXGroup;
+			children = (
+				05FC63C21CBA2D28005A4DDA /* Charts.framework */,
+				05D8B1F71C860B29006F2BF3 /* project-bnb321 */,
+				05D8B20F1C860B2A006F2BF3 /* project-bnb321Tests */,
+				05D8B21A1C860B2A006F2BF3 /* project-bnb321UITests */,
+				05D8B1F61C860B29006F2BF3 /* Products */,
+				E4852D1F1B152059C136F109 /* Pods */,
+				93F82B039748EDC3FC52AD10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05D8B1F61C860B29006F2BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D8B1F51C860B29006F2BF3 /* project-bnb321.app */,
+				05D8B20C1C860B2A006F2BF3 /* project-bnb321Tests.xctest */,
+				05D8B2171C860B2A006F2BF3 /* project-bnb321UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D8B1F71C860B29006F2BF3 /* project-bnb321 */ = {
+			isa = PBXGroup;
+			children = (
+				05D8B1F81C860B29006F2BF3 /* AppDelegate.swift */,
+				05D8B1FA1C860B2A006F2BF3 /* ViewController.swift */,
+				0546DCA81C86ABFF00FB3B2C /* EZAudio-Swift-Bridging-Header.h */,
+				0546DCB21C86B09700FB3B2C /* Main.storyboard */,
+				05D8B2021C860B2A006F2BF3 /* Assets.xcassets */,
+				058468601CC00FB8009AA984 /* click sample */,
+				05D8B2041C860B2A006F2BF3 /* LaunchScreen.storyboard */,
+				05D8B2071C860B2A006F2BF3 /* Info.plist */,
+				05D8B1FF1C860B2A006F2BF3 /* project_bnb321.xcdatamodeld */,
+				05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */,
+			);
+			path = "project-bnb321";
+			sourceTree = "<group>";
+		};
+		05D8B20F1C860B2A006F2BF3 /* project-bnb321Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05D8B2101C860B2A006F2BF3 /* project_bnb321Tests.swift */,
+				05D8B2121C860B2A006F2BF3 /* Info.plist */,
+			);
+			path = "project-bnb321Tests";
+			sourceTree = "<group>";
+		};
+		05D8B21A1C860B2A006F2BF3 /* project-bnb321UITests */ = {
+			isa = PBXGroup;
+			children = (
+				05D8B21B1C860B2A006F2BF3 /* project_bnb321UITests.swift */,
+				05D8B21D1C860B2A006F2BF3 /* Info.plist */,
+			);
+			path = "project-bnb321UITests";
+			sourceTree = "<group>";
+		};
+		93F82B039748EDC3FC52AD10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FC63C01CBA2C43005A4DDA /* Charts.framework */,
+				0546DCA31C86A8E300FB3B2C /* libEZAudio.a */,
+				891336DA9FF0F9D2841BB09A /* libPods-project-bnb321.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4852D1F1B152059C136F109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB36FD3A8368DB4573D5DC1 /* Pods-project-bnb321.debug.xcconfig */,
+				C18E1FD16AA96DA1399C9AED /* Pods-project-bnb321.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D8B1F41C860B29006F2BF3 /* project-bnb321 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D8B2201C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321" */;
+			buildPhases = (
+				928260F918A9A4CC7523A69E /* Check Pods Manifest.lock */,
+				05D8B1F11C860B29006F2BF3 /* Sources */,
+				05D8B1F21C860B29006F2BF3 /* Frameworks */,
+				05D8B1F31C860B29006F2BF3 /* Resources */,
+				9ABA21DFFAD83C64A4A596A6 /* Embed Pods Frameworks */,
+				033A542071FFE3FE411DE21D /* Copy Pods Resources */,
+				05FC63C51CBA2D29005A4DDA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "project-bnb321";
+			productName = "project-bnb321";
+			productReference = 05D8B1F51C860B29006F2BF3 /* project-bnb321.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05D8B20B1C860B2A006F2BF3 /* project-bnb321Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D8B2231C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321Tests" */;
+			buildPhases = (
+				05D8B2081C860B2A006F2BF3 /* Sources */,
+				05D8B2091C860B2A006F2BF3 /* Frameworks */,
+				05D8B20A1C860B2A006F2BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05D8B20E1C860B2A006F2BF3 /* PBXTargetDependency */,
+			);
+			name = "project-bnb321Tests";
+			productName = "project-bnb321Tests";
+			productReference = 05D8B20C1C860B2A006F2BF3 /* project-bnb321Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05D8B2161C860B2A006F2BF3 /* project-bnb321UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D8B2261C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321UITests" */;
+			buildPhases = (
+				05D8B2131C860B2A006F2BF3 /* Sources */,
+				05D8B2141C860B2A006F2BF3 /* Frameworks */,
+				05D8B2151C860B2A006F2BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05D8B2191C860B2A006F2BF3 /* PBXTargetDependency */,
+			);
+			name = "project-bnb321UITests";
+			productName = "project-bnb321UITests";
+			productReference = 05D8B2171C860B2A006F2BF3 /* project-bnb321UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D8B1ED1C860B29006F2BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Troy;
+				TargetAttributes = {
+					05D8B1F41C860B29006F2BF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5XNNQ7T3K5;
+					};
+					05D8B20B1C860B2A006F2BF3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 05D8B1F41C860B29006F2BF3;
+					};
+					05D8B2161C860B2A006F2BF3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 05D8B1F41C860B29006F2BF3;
+					};
+				};
+			};
+			buildConfigurationList = 05D8B1F01C860B29006F2BF3 /* Build configuration list for PBXProject "project-bnb321" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D8B1EC1C860B29006F2BF3;
+			productRefGroup = 05D8B1F61C860B29006F2BF3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0542AE371CBAB3BF00682098 /* Products */;
+					ProjectRef = 05FC63B41CBA2BA8005A4DDA /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05D8B1F41C860B29006F2BF3 /* project-bnb321 */,
+				05D8B20B1C860B2A006F2BF3 /* project-bnb321Tests */,
+				05D8B2161C860B2A006F2BF3 /* project-bnb321UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0542AE3D1CBAB3BF00682098 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0542AE3C1CBAB3BF00682098 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0542AE3F1CBAB3BF00682098 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0542AE3E1CBAB3BF00682098 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0542AE411CBAB3BF00682098 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 0542AE401CBAB3BF00682098 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D8B1F31C860B29006F2BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0584687E1CC00FB8009AA984 /* 1.m4a in Resources */,
+				05D8B2061C860B2A006F2BF3 /* LaunchScreen.storyboard in Resources */,
+				0546DCB31C86B09700FB3B2C /* Main.storyboard in Resources */,
+				05D8B2031C860B2A006F2BF3 /* Assets.xcassets in Resources */,
+				0584687B1CC00FB8009AA984 /* 8.m4a in Resources */,
+				058468751CC00FB8009AA984 /* 6.m4a in Resources */,
+				0584686F1CC00FB8009AA984 /* 4.m4a in Resources */,
+				058468721CC00FB8009AA984 /* 5.m4a in Resources */,
+				058468781CC00FB8009AA984 /* 7.m4a in Resources */,
+				058468691CC00FB8009AA984 /* 2.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B20A1C860B2A006F2BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058468701CC00FB8009AA984 /* 4.m4a in Resources */,
+				0546DCB41C86B09700FB3B2C /* Main.storyboard in Resources */,
+				058468791CC00FB8009AA984 /* 7.m4a in Resources */,
+				058468761CC00FB8009AA984 /* 6.m4a in Resources */,
+				0584687C1CC00FB8009AA984 /* 8.m4a in Resources */,
+				0584687F1CC00FB8009AA984 /* 1.m4a in Resources */,
+				0584686A1CC00FB8009AA984 /* 2.m4a in Resources */,
+				058468731CC00FB8009AA984 /* 5.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B2151C860B2A006F2BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058468711CC00FB8009AA984 /* 4.m4a in Resources */,
+				0546DCB51C86B09700FB3B2C /* Main.storyboard in Resources */,
+				0584687A1CC00FB8009AA984 /* 7.m4a in Resources */,
+				058468771CC00FB8009AA984 /* 6.m4a in Resources */,
+				0584687D1CC00FB8009AA984 /* 8.m4a in Resources */,
+				058468801CC00FB8009AA984 /* 1.m4a in Resources */,
+				0584686B1CC00FB8009AA984 /* 2.m4a in Resources */,
+				058468741CC00FB8009AA984 /* 5.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033A542071FFE3FE411DE21D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-project-bnb321/Pods-project-bnb321-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928260F918A9A4CC7523A69E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABA21DFFAD83C64A4A596A6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-project-bnb321/Pods-project-bnb321-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D8B1F11C860B29006F2BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D8B2011C860B2A006F2BF3 /* project_bnb321.xcdatamodeld in Sources */,
+				05D8B1FB1C860B2A006F2BF3 /* ViewController.swift in Sources */,
+				05D8B1F91C860B29006F2BF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B2081C860B2A006F2BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D8B2111C860B2A006F2BF3 /* project_bnb321Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D8B2131C860B2A006F2BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D8B21C1C860B2A006F2BF3 /* project_bnb321UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05D8B20E1C860B2A006F2BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D8B1F41C860B29006F2BF3 /* project-bnb321 */;
+			targetProxy = 05D8B20D1C860B2A006F2BF3 /* PBXContainerItemProxy */;
+		};
+		05D8B2191C860B2A006F2BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D8B1F41C860B29006F2BF3 /* project-bnb321 */;
+			targetProxy = 05D8B2181C860B2A006F2BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05D8B2041C860B2A006F2BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D8B2051C860B2A006F2BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D8B21E1C860B2A006F2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05D8B21F1C860B2A006F2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D8B2211C860B2A006F2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB36FD3A8368DB4573D5DC1 /* Pods-project-bnb321.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Charts/build/Debug-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/EZAudio\"",
+					"\"${PODS_ROOT}/Headers/Public/TPCircularBuffer\"",
+				);
+				INFOPLIST_FILE = "project-bnb321/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EZAudio-Swift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		05D8B2221C860B2A006F2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18E1FD16AA96DA1399C9AED /* Pods-project-bnb321.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Charts/build/Debug-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/EZAudio\"",
+					"\"${PODS_ROOT}/Headers/Public/TPCircularBuffer\"",
+				);
+				INFOPLIST_FILE = "project-bnb321/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EZAudio-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		05D8B2241C860B2A006F2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "project-bnb321Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-bnb321.app/project-bnb321";
+			};
+			name = Debug;
+		};
+		05D8B2251C860B2A006F2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "project-bnb321Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-bnb321.app/project-bnb321";
+			};
+			name = Release;
+		};
+		05D8B2271C860B2A006F2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "project-bnb321UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "project-bnb321";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05D8B2281C860B2A006F2BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "project-bnb321UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE573.project-bnb321UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "project-bnb321";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D8B1F01C860B29006F2BF3 /* Build configuration list for PBXProject "project-bnb321" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8B21E1C860B2A006F2BF3 /* Debug */,
+				05D8B21F1C860B2A006F2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D8B2201C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8B2211C860B2A006F2BF3 /* Debug */,
+				05D8B2221C860B2A006F2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D8B2231C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8B2241C860B2A006F2BF3 /* Debug */,
+				05D8B2251C860B2A006F2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D8B2261C860B2A006F2BF3 /* Build configuration list for PBXNativeTarget "project-bnb321UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8B2271C860B2A006F2BF3 /* Debug */,
+				05D8B2281C860B2A006F2BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05D8B1FF1C860B2A006F2BF3 /* project_bnb321.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05D8B2001C860B2A006F2BF3 /* project_bnb321.xcdatamodel */,
+			);
+			currentVersion = 05D8B2001C860B2A006F2BF3 /* project_bnb321.xcdatamodel */;
+			path = project_bnb321.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05D8B1ED1C860B29006F2BF3 /* Project object */;
+}

@@ -1,0 +1,45 @@
+ECE 473/573 Project Proposal
+Shengxiang Zhu, Ce Wang
+2/1/2016
+
+Project Proposal
+
+Mechanical Keyboard Recognizer
+
+This application would be able to analyze different kinds of mechanical keyboard switch by analyzing the wave form (audio spectrogram) from the sound received from the phone’s microphone. It would be able to classify the classic mechanical keyboard switch which is manufactured by Cherry company. Personnel requirements: signal processing, FFT, machine learning.
+
+
+Ten more app proposals:
+
+FFT Plot
+This application would demonstrate the audio spectrogram using FFT where the sound is received from the phone’s microphone. It can be used for room tuning or speaker tuning, audio measure and visualization. Personnel requirements: signal processing, FFT knowledge, visualization.
+
+Daon Identity X
+This application would allow users to verify his/her identity via his/her voice by reading a centence and analyze the voice in order for authorizing access in many situations (e.g. online bank transactions, access to medical records). Personnel requirements: signal processing.
+
+ViGo
+This application implements standardized voice biometric voice registration and verification. It can be used to replace the original PIN verification which is slower. It is likely to be applied to the older version of smart phones which do not have a fingerprint sensor for a quicker identity verification. Personnel requirements: signal processing.
+
+Octave RTA
+This application would be a real-time audio analysis app which is designed for musicians and recording engineers. It detects sound and visualize according to different frequencies. It can be used for room tuning or audio measure. Personnel requirements: signal processing.
+
+Spectrum Analyzer
+This application would visualize the audio received from the phone’s microphone or an external measurement microphone connected via USB audio interface or iPhone dock connector. This application would allow for high precision and flat frequency response, as well as for stereo input. Personnel requirements: signal processing, audio analysis.
+
+Shazam.
+-Used to discover music,artists,videos and lyrics.
+This software used to identify musics and get songs lyrics.Shazam could verify a song from an outside source and used to find music that artists discover themselves.Also it can share the music people identified or the artists they love.
+
+SoundHound
+-live lyrics.Search,Discover and play music.
+SoundHound is a music searching discovery experience that identifies music being played around user.Tap the orange button to instantly identify songs and see lyrics,share,stream,buy or simply explore more about artists and love or have just discovered.Also,people could search by singing or humming into SoundHound.
+
+I search a song
+For people who have heard s song they really like.This software provide a easy and fast way to look for this particular song.
+
+SpotSearch for Spotify
+SpotSearch enables people to find the music they’ve heard on the radio or elsewhere but don't know the title to.And this app require parts of lyrics.
+
+Recognize
+Recognize is an app to help people identify their favorite songs from any radio station,movie,TV shows or commercial.This app need hold up the device to speaker,press mic button and Recognize will tell user the track playing.
+

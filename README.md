@@ -1,4 +1,4 @@
-Readme.txt
+Readme.md
 
 Created by Shengxiang Zhu(Troy) on 3/10/2016
 Updated by Shengxiang Zhu(Troy) on 4/14/2016

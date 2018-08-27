@@ -6,7 +6,7 @@ Updated by Shengxiang Zhu(Troy) on 5/3/2016
 
 This is the ECE 573 project of team bnb321.
 
-The introduction video link is at (https://www.youtube.com/watch?v=eRyX9Ho0JBM). You can watch our introduction video on Youtube.
+The introduction video link is [here](https://www.youtube.com/watch?v=eRyX9Ho0JBM "Introduction of bnb321").
 
 To open the Final release project, please double click the "project-bnb321.xcworkspace" file. Since we used an external library to process our audio signal, we integrated the library into our project. Please make sure that you double click the "xcworkspace" file. DO NOT OPEN THE XCODEPROJ FILE! If you open the xcodeproj file, it may not compile.
 
